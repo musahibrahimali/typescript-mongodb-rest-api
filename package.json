@@ -5,7 +5,8 @@
   "author": "Musah Ibrahim Ali",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --config nodemon.json src/app.ts"
+    "dev": "nodemon --config nodemon.json src/app.ts",
+    "start": "node  src/app.ts"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
